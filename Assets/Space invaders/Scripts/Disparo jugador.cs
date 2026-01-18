@@ -10,7 +10,7 @@ public class Disparojugador : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetButtonDown("Fire1")) 
+        if (Input.GetButtonDown("Jump")) 
 
         {
             Instantiate(disparoPrefab, transform.position, Quaternion.identity) ;

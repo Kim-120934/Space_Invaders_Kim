@@ -370,7 +370,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &47962429
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1327,7 +1327,7 @@ SceneRoots:
   - {fileID: 2049973764}
   - {fileID: 47962426}
   - {fileID: 1592904837}
-  - {fileID: 375949695}
   - {fileID: 1353171825}
   - {fileID: 371395359}
   - {fileID: 1904779748}
+  - {fileID: 375949695}
