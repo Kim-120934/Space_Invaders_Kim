@@ -3,6 +3,7 @@ using UnityEngine;
 public class Disparo : MonoBehaviour
 {
     public float moveSpeed;
+    public GameObject explosionPrefab;
     void Start()
     {
         
@@ -14,8 +15,10 @@ public class Disparo : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
+       
         if (collision.gameObject.tag == "Enemigo")
         {
+            Instantiate(explosionPrefab, transform.position, Quaternion.identity);
             Destroy(collision.gameObject);
             Destroy(gameObject);
         }
