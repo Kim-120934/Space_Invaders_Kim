@@ -1,12 +1,15 @@
+using Unity.VisualScripting;
 using UnityEngine;
+
 
 public class Disparo : MonoBehaviour
 {
     public float moveSpeed;
     public GameObject explosionPrefab;
+    private Puntuación puntuación;
     void Start()
     {
-        
+        puntuación = GameObject.Find("Puntuación").GetComponent<Puntuación>();
     }
 
     void Update()
@@ -20,6 +23,7 @@ public class Disparo : MonoBehaviour
         {
             Instantiate(explosionPrefab, transform.position, Quaternion.identity);
             Destroy(collision.gameObject);
+            puntuación.UpdateScore(50);
             Destroy(gameObject);
         }
         if (collision.gameObject.tag == "Limites")
