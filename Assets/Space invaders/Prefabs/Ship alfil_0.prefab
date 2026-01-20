@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 2903748591604569262}
   - component: {fileID: 4817223019808523653}
   - component: {fileID: 1909310218066512002}
+  - component: {fileID: 539521140608740293}
+  - component: {fileID: 1895582490521673569}
   m_Layer: 0
   m_Name: Ship alfil_0
   m_TagString: Enemigo
@@ -28,7 +30,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 1, y: -0, z: -0, w: 0}
   m_LocalPosition: {x: -0.3, y: 1.74, z: 0.042766824}
-  m_LocalScale: {x: 0.15557717, y: 0.15557717, z: 0.15557717}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -134,3 +136,40 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 8.1875, y: 7.8588915}
   m_EdgeRadius: 0
+--- !u!114 &539521140608740293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 25542291173223931}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c46cab55922e194581de0bec3eeb4ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animationSprites:
+  - {fileID: 4736016123673252077, guid: 9334bcbf345225549a9c1dea22e04aae, type: 3}
+  animationTime: 1
+  livesUI:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  explosionPrefab: {fileID: 1477577639859358781, guid: ef456a4e5bb80f541bef68cf01dc8992, type: 3}
+  lives: 3
+--- !u!114 &1895582490521673569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 25542291173223931}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a286e77da5127d542a7d72db2c3474f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  disparo: {fileID: 8995814385031662212, guid: 0db4f5a630953a8418451ca9b749bff2, type: 3}
+  spawnTimer: 0
+  spawnMax: 10
+  spawnMin: 5

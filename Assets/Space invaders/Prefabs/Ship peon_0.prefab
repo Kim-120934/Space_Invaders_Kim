@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 5905256263611376683}
   - component: {fileID: 6482809813687839765}
   - component: {fileID: 6305841961768872637}
+  - component: {fileID: -6471383655371332620}
+  - component: {fileID: 7242724045026379485}
   m_Layer: 0
   m_Name: Ship peon_0
   m_TagString: Enemigo
@@ -28,7 +30,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 1, y: -0, z: -0, w: 0}
   m_LocalPosition: {x: -0.3, y: 0.02, z: 0.042766824}
-  m_LocalScale: {x: 0.121241555, y: 0.121241555, z: 0.121241555}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -134,3 +136,34 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 8.8125, y: 8.163004}
   m_EdgeRadius: 0
+--- !u!114 &-6471383655371332620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3352765248713278674}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c46cab55922e194581de0bec3eeb4ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animationSprites:
+  - {fileID: -703488696383587445, guid: 18b1cfcbcd445634babca3959fb92f02, type: 3}
+  animationTime: 1
+--- !u!114 &7242724045026379485
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3352765248713278674}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a286e77da5127d542a7d72db2c3474f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  disparo: {fileID: 8995814385031662212, guid: 0db4f5a630953a8418451ca9b749bff2, type: 3}
+  spawnTimer: 0
+  spawnMax: 10
+  spawnMin: 5
