@@ -43,5 +43,9 @@ public class Disparo : MonoBehaviour
             Destroy(gameObject);
         }
     }
+    //Recursos:
+    //https://www.youtube.com/watch?v=ZX5g1ZXt2e8
+    //https://docs.unity3d.com/ScriptReference/GameObject.Find.html
+    //https://docs.unity3d.com/ScriptReference/Object.Instantiate.html
 }
 

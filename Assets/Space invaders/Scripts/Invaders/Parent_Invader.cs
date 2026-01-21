@@ -95,4 +95,9 @@ public class Parent_Invader : MonoBehaviour
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
     }
+    //Recursos:
+    //https://www.youtube.com/watch?v=qWDQgmdUzWI
+    //https://docs.unity3d.com/ScriptReference/Object.Instantiate.html
+    //https://learn.microsoft.com/es-es/dotnet/csharp/language-reference/builtin-types/arrays
+
 }

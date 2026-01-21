@@ -17,7 +17,7 @@ public class Bunker : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "Disparo" || collision.gameObject.tag == "Enemigo Disparo")
+        if (collision.gameObject.tag == "Enemigo Disparo" || collision.gameObject.tag == "Disparo")
         {
             health--;
 
@@ -40,5 +40,9 @@ public class Bunker : MonoBehaviour
             }
         }
     }
+    //Recursos:
+    //https://docs.unity3d.com/ScriptReference/Component.GetComponent.html
+    //https://www.youtube.com/watch?v=qWDQgmdUzWI
+
 }
 

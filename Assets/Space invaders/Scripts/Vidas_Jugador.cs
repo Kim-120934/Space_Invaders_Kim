@@ -41,5 +41,8 @@ public class Vidas_Jugador : MonoBehaviour
             }
         }
     }
-   
+    //Recursos:
+    //https://docs.unity3d.com/ScriptReference/Component.CompareTag.html
+    //https://docs.unity3d.com/ScriptReference/Object.Instantiate.html
+    //https://www.youtube.com/watch?v=ZX5g1ZXt2e8&list=PLSR2vNOypvs5jmv1YIP_IVtlPnU5yEunL
 }

@@ -151,12 +151,6 @@ MonoBehaviour:
   animationSprites:
   - {fileID: 4736016123673252077, guid: 9334bcbf345225549a9c1dea22e04aae, type: 3}
   animationTime: 1
-  livesUI:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  explosionPrefab: {fileID: 1477577639859358781, guid: ef456a4e5bb80f541bef68cf01dc8992, type: 3}
-  lives: 3
 --- !u!114 &1895582490521673569
 MonoBehaviour:
   m_ObjectHideFlags: 0

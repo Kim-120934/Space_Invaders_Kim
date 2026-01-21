@@ -29,5 +29,8 @@ public class New_Invader : MonoBehaviour
         }
         _spriteRender.sprite= this.animationSprites[_animationFrame];
     }
-    
+
+    //Recursos:
+    //https://www.youtube.com/watch?v=qWDQgmdUzWI
+
 }
